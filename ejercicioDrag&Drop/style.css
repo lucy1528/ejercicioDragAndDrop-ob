@@ -1,0 +1,36 @@
+.papelera{    
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSMWeEC0tULzOjfWFAOdOHjUw9WjXhBDbirg&usqp=CAU);
+    height: 150px;
+    width: 150px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.seccion {
+    background-color: darkslategrey;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.parrafo {
+    background-color: white;
+    padding: 1rem;
+}
+
+.dragging{
+    opacity: 0.3;
+}
+/*para poder utilizar la imagen fantasma tiene que estar dentro del documento html*/
+.imagen-fantasma{
+    height: 150px;
+    width: 200px;
+    background-image: url(https://yt3.ggpht.com/uoUSmEFor4Xl4l4gnnQo-C-Q3wisHRGAVfsG1CV0X73pDoiAzBTfroVqQByFkNpjBBE-3w0H=s900-c-k-c0x00ffffff-no-rj);
+    background-size: cover;
+    position: absolute;
+    left: -100vw;
+}
